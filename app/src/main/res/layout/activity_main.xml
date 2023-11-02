@@ -5,13 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/background"
+    android:background="@drawable/background"
     android:padding="30dp"
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:background="@drawable/round_style"
-        android:backgroundTint="@color/light_green"
+        android:background="@drawable/background_color_light_green"
         android:id="@+id/tvBox"
         android:minWidth="45dp"
         android:minHeight="43dp"
@@ -60,8 +59,7 @@
                 android:paddingStart="11dp"
                 android:drawableStart="@drawable/baseline_person_24"
                 android:layout_height="match_parent"
-                android:layout_marginEnd="18dp"
-                />
+                android:layout_marginEnd="18dp" />
 
             <androidx.appcompat.widget.AppCompatEditText
                 android:id="@+id/btnFullName"
@@ -142,16 +140,11 @@
                 android:paddingStart="80dp"
                 android:paddingEnd="80dp"
                 android:drawableEnd="@drawable/next_arrow"
-                android:background="@drawable/round_style"
-                android:backgroundTint="@color/light_green"
+                android:background="@drawable/background_color_light_green"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"/>
 
-
         </androidx.appcompat.widget.LinearLayoutCompat>
-
-
-
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
