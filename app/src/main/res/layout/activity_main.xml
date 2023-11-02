@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:background="@drawable/round_style"
+        android:backgroundTint="@color/light_green"
+        android:id="@+id/tvBox"
+        android:minWidth="45dp"
+        android:minHeight="43dp"
+        android:layout_marginTop="109dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:paddingStart="2dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:text="@string/hello"
+            android:textSize="42sp"
+            android:textColor="@color/white"
+            android:lineHeight="49.22dp"
+            android:fontFamily="@font/sf_pro_display_bold"
+            android:layout_marginTop="28dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:text="@string/introduce"
+            android:textSize="24sp"
+            android:textColor="@color/text_color"
+            android:lineHeight="28.13dp"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:layout_marginTop="9dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!--   full name  -->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:orientation="horizontal"
+            android:layout_marginTop="37dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:width="38dp"
+                android:height="48dp"
+                android:background="@drawable/icon_background"
+                android:layout_width="wrap_content"
+                android:paddingStart="11dp"
+                android:drawableStart="@drawable/baseline_person_24"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="18dp"
+                />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/btnFullName"
+                android:hint="@string/full_name"
+                android:textColor="@color/text_color"
+                android:textColorHint="@color/text_color"
+                android:textSize="18sp"
+                android:lineHeight="21.09dp"
+                android:height="54dp"
+                android:fontFamily="@font/sf_pro_display_regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/under_line" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--   Username   -->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:orientation="horizontal"
+            android:layout_marginTop="37dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:width="38dp"
+                android:height="48dp"
+                android:background="@drawable/icon_background"
+                android:layout_width="wrap_content"
+                android:paddingStart="11dp"
+                android:drawableStart="@drawable/baseline_person_24"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="18dp"
+                />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etUsername"
+                android:hint="@string/user_name"
+                android:textColor="@color/text_color"
+                android:textColorHint="@color/text_color"
+                android:textSize="18sp"
+                android:lineHeight="21.09dp"
+                android:height="54dp"
+                android:fontFamily="@font/sf_pro_display_regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/under_line" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--  buttons      -->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_marginTop="63.5dp"
+            android:orientation="horizontal"
+            android:minHeight="58dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnBack"
+                android:drawableStart="@drawable/back_arrow"
+                android:paddingStart="37dp"
+                android:background="@drawable/round_style"
+                android:backgroundTint="@color/dark_green"
+                android:layout_marginEnd="12dp"
+                android:width="58dp"
+                android:height="58dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnNext"
+                android:text="@string/next_button"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:fontFamily="@font/sf_pro_display_bold"
+                android:width="245dp"
+                android:height="58dp"
+                android:paddingStart="80dp"
+                android:paddingEnd="80dp"
+                android:drawableEnd="@drawable/next_arrow"
+                android:background="@drawable/round_style"
+                android:backgroundTint="@color/light_green"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

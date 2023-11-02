@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Exercise_4</string>
+    <string name="hello">Hello!</string>
+    <string name="introduce">lets introduce</string>
+    <string name="full_name">Your full name</string>
+    <string name="user_name">Username</string>
+    <string name="next_button">Next</string>
+
+
+
+
+
+</resources>
